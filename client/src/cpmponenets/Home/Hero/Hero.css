@@ -10,3 +10,10 @@
 .font3 {
     font-family: 'VT323', monospace;
 }
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&display=swap');
+.text-highlight {
+    font-family: 'Instrument Serif', serif;
+
+}
+.text-font {
+    font-family: 'Montagu Slab', serif;}

@@ -6,8 +6,8 @@ export default function Hero() {
         <div className='w w-3/5 h-screen bg-shades-1 flex flex-col items-start p-20 justify-center z-10'>
           
           <p className='text-[4.2rem] text-gray-300 font1'>Web Developer</p>
-          <p className='mt-10 text-gray-400 text-md font-normal font2'>Hola This is Kopil..! <br/> I'm a Front-end Developer turning concepts into digital art. Learning MERN Development to make your websites not just  visually enchanting, but fully functional. <br /> Let's co-create digital wonders!</p>
-          <button className='w-auto h-auto rounded-2xl bg-shades-3 pl-5 pr-5 p-2 font2 mt-6'>Resume -</button>
+          <p className='mt-10 text-shades-8 text-[27px] text-font'>Hola This is Kopil..! <br/> I'm a <span className=''>Front-end Developer</span> turning concepts into digital art. Learning MERN Development to make your websites not just  visually enchanting, but fully functional. <br /> Let's co-create digital wonders!</p>
+          <button className='w-auto h-auto rounded-2xl bg-shades-3 pl-5 pr-5 p-2 font2 mt-6'>Resume <span className='text-shades-4'>-</span></button>
 
         </div>
         <div className=' w-2/5 h-screen bg-shades-2 flex items-center justify-end  overflow-hidden z-20' style={{ overflow: 'hidden' }}>
