@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Skill() {
   return (
-    <div className='h-auto flex  bg-shades-2 '>
+    <section className='h-auto flex  bg-shades-2 overflow-hidden '>
       <div className='p-20 flex flex-col'>
         <p className='text-8xl font1 z-10 text-shades-7'>Skills</p>
         <div className='w-[15rem] h-16 -mt-[39px] -ml-8 border-2 border-shades-4'></div>
@@ -34,6 +34,6 @@ export default function Skill() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
