@@ -46,6 +46,12 @@ export default function Project_2() {
                       <div className='flex flex-col'>
                           <p className='text-2xl text-white'>Omano</p>
                           <p className='text-white text-xl text-font'>A Food ordering and restaurant booking project</p>
+
+                          <div className='flex mt-2 opacity-80'>
+                                <div className='b bg-waka_total rounded text-font text-white text-[16px] pl-1 pr-1 shadow-sm'><p className='d drop-shadow-md'>total:</p></div>
+                            <img src="https://wakatime.com/badge/user/0a39de3e-3235-4c6e-a595-07957c7f5086/project/bf70c8a6-4c35-49ba-bdd3-efd07421fae8.svg" alt=""/>
+
+                            </div>
                       </div>
                       <div>arrow</div>
                   </div>

@@ -29,6 +29,7 @@ export default {
         'shades-6' : '#994800',
         'shades-7' : '#0B1315',
         'shades-8' : '#81888B',
+        'waka_total': '#505050',
       },
 
     },
