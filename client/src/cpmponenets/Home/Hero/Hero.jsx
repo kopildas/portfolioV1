@@ -2,8 +2,8 @@ import React from 'react'
 import './Hero.css'
 export default function Hero() {
   return (
-    <section className='text-2xl h-screen flex items-center justify-between  bg-shades-1 '>
-        <div className='w w-3/5 h-screen bg-shades-1 flex flex-col items-start p-20 justify-center z-10'>
+    <section className='text-2xl h-screen flex items-center justify-between  bg-shades-1 overflow-hidden'>
+        <div className='w w-3/5 h-screen bg-shades-1 flex flex-col items-start p-20 justify-center z-10 mt-24 overflow-hidden'>
           
           <p className='text-[4.2rem] text-gray-300 font1'>Web Developer</p>
           <p className='mt-10 text-shades-8 text-[27px] text-font'>Hola This is Kopil..! <br/> I'm a <span className=''>Front-end Developer</span> turning concepts into digital art. Learning MERN Development to make your websites not just  visually enchanting, but fully functional. <br /> Let's co-create digital wonders!</p>
