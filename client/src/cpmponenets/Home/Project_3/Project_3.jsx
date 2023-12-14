@@ -31,7 +31,7 @@ export default function Project_3() {
 
                             </div>
                         </div>
-                        <div>arrow</div>
+                        {/* <div>arrow</div> */}
                     </div>
                     <Pro_Box_1 project_number={one} data={data}/>
                 </div>
