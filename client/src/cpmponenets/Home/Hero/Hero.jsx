@@ -43,7 +43,7 @@ export default function Hero() {
             co-create digital wonders!
           </p>
           <div className="relative group">
-            <div className="absolute inset-0 bg-gradient-to-r from-shades-6 to-shades-4 rounded-2xl mt-6 opacity-75 group-hover:opacity-100 blur-sm group-hover:blur transition ease-in-out duration-700 group-hover:duration-200 animate-tilt"></div>
+            <div className="absolute inset-0 bg-shades-4 rounded-2xl mt-6 opacity-75 group-hover:opacity-100 blur-md group-hover:blur-lg transition ease-in-out duration-700 group-hover:duration-200 animate-tilt"></div>
             <button className="w-auto h-auto rounded-2xl text-shades-8 bg-shades-1  px-8 py-2 font2 mt-6 relative">
               Resume <span className="text-shades-4">-</span>
             </button>
