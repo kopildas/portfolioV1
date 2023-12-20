@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 // import Header from './component/Header/Header'
 import { BrowserRouter as Router,
   Routes,
@@ -11,9 +11,14 @@ import './App.css'
 import Home from './pages/Home/Home'
 import About from './pages/About/About'
 import Header from './cpmponenets/Header/Header'
+import Lenis from '@studio-freight/lenis'
 
 function App() {
   const [count, setCount] = useState(0)
+
+  // this is for smooth scrolling by lenis
+
+  
 
   return (
     <>

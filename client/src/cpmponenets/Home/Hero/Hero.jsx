@@ -1,22 +1,52 @@
 import { motion } from 'framer-motion'
-import React, { useRef, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { FaLinkedinIn, FaGithub, FaTwitter, FaInstagram } from "react-icons/fa";
 import Icon_Magnetic from "./Icon_Magnetic";
 import "./Hero.css";
+import Lenis from '@studio-freight/lenis'
+
+
 export default function Hero() {
+  const [offsetY, setOffsetY] = useState(0);
+
+  const handleScroll = () => setOffsetY(window.scrollY);
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll, { passive: true });
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
 
+
+  useEffect(() => {
+    const lenis = new Lenis()
+    
+    function raf(time) {
+      lenis.raf(time)
+      requestAnimationFrame(raf)
+    }  
+    requestAnimationFrame(raf)
+  }, []);
+
+
+  
   return (
-    <section className="text-2xl h-screen flex items-center justify-between  bg-shades-1 overflow-hidden">
+    <section className=" text-2xl h-screen flex items-center justify-between  bg-shades-1 ">
+
       <div className="w w-3/5 h-screen bg-shades-1 flex items-start justify-center overflow-hidden">
-        <div className="flex flex-col w-40 items-center h-screen justify-center gap-5 ml-4 text-shades-4 z-10">
+        <div className="flex flex-col w-40 items-center h-screen justify-center gap-5 ml-4 text-shades-4 z-10" style={{transform: `translateY(${offsetY *0.5}px)`}}>
        
           
+          <div className='' >
           <Icon_Magnetic>
-          <a href="https://www.linkedin.com/in/kopildas/" className='cursor-pointer'><FaLinkedinIn /></a>
+          <a href="https://www.linkedin.com/in/kopildas/" className='cursor-pointer' ><FaLinkedinIn /></a>
               
             
           </Icon_Magnetic>
+          </div>
           <Icon_Magnetic>
           <a href="https://github.com/kopildas" className='cursor-pointer'><FaGithub /></a>
               
@@ -33,8 +63,9 @@ export default function Hero() {
             
           </Icon_Magnetic>
         </div>
+
         <div className=" h-screen bg-shades-1 flex flex-col items-start p-20 justify-center z-10 mt-14 overflow-hidden">
-          <p className="text-[4.2rem] text-gray-300 font1">Web Developer</p>
+          <p className="text-[4.2rem] text-gray-300 font1 ">Web Developer</p>
           <p className="mt-10 text-shades-8 text-[27px] text-font">
             Hola This is Kopil..! <br /> I'm a{" "}
             <span className="">Front-end Developer</span> turning concepts into
@@ -49,20 +80,20 @@ export default function Hero() {
             </button>
           </div>
         </div>
+
       </div>
       <div
-        className=" w-2/5 h-screen bg-shades-2 flex items-center justify-end  overflow-hidden z-20"
-        style={{ overflow: "hidden" }}
+        className="parallax__jax w-2/5 h-screen bg-shades-2 flex items-center justify-end   z-20" 
       >
         <img
           src="https://i.ibb.co/kBDgBvb/statue-stoicism-philosophy-working-in-laptop-dark-background-cinematic-381425111-removebg.png"
           alt="statue-stoicism-philosophy-working-in-laptop-dark-background-cinematic-381425111-removebg"
           border="0"
-          className="h-screen absolute overflow-hidden z-30"
-          style={{ transform: "scale(1)", maxWidth: "100%" }} // Adjust the scale factor and maxWidth as needed
+          className="h-screen absolute  z-30"
+          style={{transform: `translate3d(${Math.min(offsetY * 0.8, 600)}px, 0px, 0px) scale(1)` }} // Adjust the scale factor and maxWidth as needed
         />
       </div>
-      <div className="w-44 h-screen absolute"></div>
+      {/* <div className="w-44 h-screen bg-red-300 absolute"></div> */}
     </section>
   );
 }
