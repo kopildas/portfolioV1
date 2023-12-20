@@ -14,7 +14,7 @@ export default {
         tilt: {
           "0%, 50%, 100%": {
             transform: "rotate(0deg)",
-          },
+           },
           "25%": {
             transform: "rotate(1deg)",
           },
