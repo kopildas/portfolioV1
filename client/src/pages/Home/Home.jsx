@@ -27,7 +27,7 @@ export default function Home() {
       {/* <Parallax_1/> */}
       <Hero />
       <Skills/>
-      <Skill />
+      {/* <Skill /> */}
       <Project_1 />
       <Project_2 />
       <Project_3 />
