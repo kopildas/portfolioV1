@@ -15,7 +15,7 @@ export default function Project_3() {
       <div className='p-20 flex flex-col w-full'>
        
 
-        <div className='flex items-center justify-center mt-10 font2 rounded-3xl gap-5'>
+        <div className='px-10 flex items-center justify-center mt-10 font2 rounded-3xl gap-5'>
             <div className='w-3/5 h-auto hover:bg-gradient-1 ease-in-out duration-500 rounded-3xl'>
             <div className=' h-auto rounded-3xl flex flex-col border border-shades-4 backdrop-blur-lg ' style={{
               backgroundColor: "#0f3a3322",
@@ -47,9 +47,11 @@ export default function Project_3() {
                        </p>
                     </div>
                     <div className='w-full h-auto rounded-3xl border border-shades-5 text-stone-400 flex'>
-                        <div className='w-1/2 rounded-3xl bg-shades-8 h-full flex items-center justify-center text-shades-1 p-5 border border-shades-7 text-xl'>Github link</div>
+                    <a className='w-1/2 rounded-3xl bg-shades-8 h-full flex items-center justify-center text-shades-1 p-5 border border-shades-7 text-xl' href="https://github.com/kopildas/karprotfolio">
+                        <div >Github link</div></a>
                         <div></div>
-                        <div className='w-1/2 rounded-3xl bg-shades-8 h-full flex items-center justify-center text-shades-1 p-5 border border-shades-7 text-xl'>Go to the website</div>
+                        <a className='w-1/2 rounded-3xl bg-shades-8 h-full flex items-center justify-center text-shades-1 p-5 border border-shades-7 text-xl' href="https://karfolio.onrender.com/">
+                        <div >Go to the website</div></a> 
                         <div></div>
                     </div>
                 </div>

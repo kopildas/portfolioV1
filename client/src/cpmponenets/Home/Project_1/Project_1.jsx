@@ -22,7 +22,7 @@ export default function Project_1() {
         <div className='w-[18rem] h-[4rem] -mt-[38px] -mr-7 border-2 border-shades-4'></div>
         </div>
 
-        <div className='flex items-center justify-center mt-10 font2 rounded-3xl gap-5'>
+        <div className='px-10 flex items-center justify-center mt-10 font2 rounded-3xl gap-5'>
             
 
             <div className='w-3/5 h-auto hover:bg-gradient-1 ease-in-out duration-500 rounded-3xl'>
@@ -55,11 +55,13 @@ export default function Project_1() {
                         With JWT ensuring secure user authentication and an innovative "favorite" button, Woodhy is not just a project—it's an experience.</p>
                     </div>
                     <div className='w-full h-auto rounded-3xl border border-shades-5 text-stone-400 flex'>
-                        <div className='w-1/2 rounded-3xl bg-shades-8 h-full flex items-center justify-center text-shades-1 p-5 border border-shades-7 text-xl'>Github link</div>
-                        <div></div>
-                        <div className='w-1/2 rounded-3xl bg-shades-8 h-full flex items-center justify-center text-shades-1 p-5 border border-shades-7 text-xl'>Go to the website</div>
-                        <div></div>
-                    </div>
+                  <a className='w-1/2 rounded-3xl bg-shades-8 h-full flex items-center justify-center text-shades-1 p-5 border border-shades-7 text-xl' href="https://github.com/kopildas/furniture">
+                        <div >Github link</div></a>
+                      <div></div>
+                      <a className='w-1/2 rounded-3xl bg-shades-8 h-full flex items-center justify-center text-shades-1 p-5 border border-shades-7 text-xl' href="https://woodhy.vercel.app/">
+                        <div >Go to the website</div></a>
+                      <div></div>
+                  </div>
                 </div>
             </div>
         </div>

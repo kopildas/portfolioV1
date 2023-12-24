@@ -16,7 +16,7 @@ export default function Project_2() {
     <section className='h-auto flex  bg-shades-1 '>
     <div className='p-20 flex flex-col w-full'>
 
-      <div className='flex items-center justify-center mt-10 font2 rounded-3xl gap-5'>
+      <div className='px-10 flex items-center justify-center mt-10 font2 rounded-3xl gap-5'>
          
 
           <div className='w-2/5 h-full flex items-start justify-start'>
@@ -28,9 +28,11 @@ export default function Project_2() {
 🌟 Feature Showcase: User-friendly features include dynamic sorting, customizable price ranges.</p>
                   </div>
                   <div className='w-full h-auto rounded-3xl border border-shades-5 text-stone-400 flex'>
-                      <div className='w-1/2 rounded-3xl bg-shades-8 h-full flex items-center justify-center text-shades-1 p-5 border border-shades-7 text-xl'>Github link</div>
+                  <a className='w-1/2 rounded-3xl bg-shades-8 h-full flex items-center justify-center text-shades-1 p-5 border border-shades-7 text-xl' href="https://github.com/kopildas/omano-restaurant">
+                        <div >Github link</div></a>
                       <div></div>
-                      <div className='w-1/2 rounded-3xl bg-shades-8 h-full flex items-center justify-center text-shades-1 p-5 border border-shades-7 text-xl'>Go to the website</div>
+                      <a className='w-1/2 rounded-3xl bg-shades-8 h-full flex items-center justify-center text-shades-1 p-5 border border-shades-7 text-xl' href="https://omano-restaurant.vercel.app/">
+                        <div >Go to the website</div></a>
                       <div></div>
                   </div>
               </div>
