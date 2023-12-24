@@ -36,7 +36,7 @@ export default function Hero() {
   return (
     <section className=" text-2xl h-screen flex items-center justify-between  bg-shades-1 ">
 
-      <div className="w w-3/5 h-screen bg-shades-1 flex items-start justify-center overflow-hidden">
+      <div className="w w-[75%] md:w-3/5 h-screen bg-shades-1 flex items-start justify-center overflow-hidden gap-2">
         <div className="flex flex-col w-40 items-center h-screen justify-center gap-5 ml-4 text-shades-4 z-10" style={{transform: `translateY(${offsetY *0.5}px)`}}>
        
           
@@ -64,9 +64,9 @@ export default function Hero() {
           </Icon_Magnetic>
         </div>
 
-        <div className=" h-screen bg-shades-1 flex flex-col items-start p-20 justify-center z-10 mt-14 overflow-hidden">
-          <p className="text-[4.2rem] text-gray-300 font1 ">Web Developer</p>
-          <p className="mt-10 text-shades-8 text-[27px] text-font">
+        <div className=" h-screen bg-shades-1 flex flex-col items-start p-1 md:p-3 lg:p-20 justify-center z-10  lg:mt-14 overflow-hidden">
+          <p className="text-[32px] md:text-[2.4rem] lg:text-[2.85rem] text-gray-300 font1 ">Web Developer</p>
+          <p className="mt-10 text-shades-8 text-[20px] md:text-[24px] lg:text-[27px] text-font bg-red-00">
             Hola This is Kopil..! <br /> I'm a{" "}
             <span className="">Front-end Developer</span> turning concepts into
             digital art. Learning MERN Development to make your websites not
@@ -83,13 +83,13 @@ export default function Hero() {
 
       </div>
       <div
-        className="parallax__jax w-2/5 h-screen bg-shades-2 flex items-center justify-end   z-20" 
+        className="parallax__jax w-[25%] md:w-2/5 h-screen bg-shades-2 flex items-end justify-end   z-20" 
       >
         <img
           src="https://i.ibb.co/kBDgBvb/statue-stoicism-philosophy-working-in-laptop-dark-background-cinematic-381425111-removebg.png"
           alt="statue-stoicism-philosophy-working-in-laptop-dark-background-cinematic-381425111-removebg"
           border="0"
-          className="h-screen absolute  z-30"
+          className=" h-auto md:h-auto lg:h-screen absolute  z-30"
           style={{transform: `translate3d(${Math.min(offsetY * 0.8, 600)}px, 0px, 0px) scale(1)` }} // Adjust the scale factor and maxWidth as needed
         />
       </div>
