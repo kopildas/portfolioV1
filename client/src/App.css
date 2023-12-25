@@ -1,9 +1,31 @@
 #root {
 
 }
-body{
+/* body{
   overflow-x: hidden;
-}
+} */
 html,body{
   scroll-behavior: smooth;
+  /* height: 100%; */
+
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
+  }
+
+
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+    height: 100%; /* or 'visible', depending on your specific needs */
+  }
 }
+@media screen and (max-width: 441px){
+
+  /* #end_screen { (NOte:-the end_screen is the wrapper div for all other div's inside it.) */
+    body {
+      overflow-x: hidden;
+      /* height: 100%; or 'visible', depending on your specific needs */
+    }
+     
+   }

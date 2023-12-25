@@ -15,12 +15,12 @@ export default function Skills() {
 
   return (
     <div className="h-screen font4 bg-shades-3 w-full flex items-center justify-center">
-      <div className="z-20 absolute h-full">
+      <div className="z-20 absolute h-screen">
         <img
           src="https://i.ibb.co/txrX4Tb/the-1-self-made-man-removebg-removebg.png"
           alt="the-self-made-man-is-a-sculpture-by-loveland"
           border="0"
-          className="h-full "
+          className="h-auto "
         />
       </div>
       <div className="z-10 absolute mt-10 h-[30rem] w-[8rem] mr-24 bg-shades-1 mix-blend-overlay"></div>
