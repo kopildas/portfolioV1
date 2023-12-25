@@ -83,13 +83,13 @@ export default function Hero() {
 
       </div>
       <div
-        className="parallax__jax w-[25%] md:w-2/5 h-screen bg-shades-2 flex items-end justify-end   z-20" 
+        className="parallax__jax w-[25%] md:w-2/5 h-screen bg-shades-2 flex items-end justify-end overflow-hidden z-20" 
       >
         <img
           src="https://i.ibb.co/kBDgBvb/statue-stoicism-philosophy-working-in-laptop-dark-background-cinematic-381425111-removebg.png"
           alt="statue-stoicism-philosophy-working-in-laptop-dark-background-cinematic-381425111-removebg"
           border="0"
-          className=" h-auto md:h-auto lg:h-screen absolute  z-30"
+          className=" h-auto md:h-auto lg:h-screen absolute  z-30 overflow-hidden"
           style={{transform: `translate3d(${Math.min(offsetY * 0.8, 600)}px, 0px, 0px) scale(1)` }} // Adjust the scale factor and maxWidth as needed
         />
       </div>
