@@ -19,7 +19,7 @@ function TextReveal() {
     const text = "HTML, CSS, Javascript, BootStrap, Tailwind CSS, React"
     const back_text = "Node.js, Express.js, Postman"
     const data_text = "MongoDB, Mongoose ODM, Firebase"
-    const ml_text = "Python, OpeenCV, Numpy, Pandas, Scikit-Learn, TensorFlow, MatplotLib"
+    const ml_text = "Python, OpenCV, Numpy, Pandas, Scikit-Learn, TensorFlow, MatplotLib"
     const vr_c_text = "Git, Github"
     const other_text = "Vercel, Render, Github pages, C, C++, Java"
 
