@@ -12,20 +12,20 @@ export default function Project_3() {
     ];
   return (
     <section className='h-auto flex  bg-shades-1 '>
-      <div className='p-20 flex flex-col w-full'>
+      <div className='lg:p-20 p-5 flex flex-col w-full'>
        
 
-        <div className='px-10 flex items-center justify-center mt-10 font2 rounded-3xl gap-5'>
-            <div className='w-3/5 h-auto hover:bg-gradient-1 ease-in-out duration-500 rounded-3xl'>
+        <div className='lg:px-10 bg-red-00 flex flex-col lg:flex-row items-center justify-center mt-10 mb-10 font2 rounded-3xl gap-5 border border-shades-3 p-[5px]'>
+            <div className='lg:w-3/5 h-auto hover:bg-gradient-1 ease-in-out duration-500 rounded-3xl'>
             <div className=' h-auto rounded-3xl flex flex-col border border-shades-4 backdrop-blur-lg ' style={{
               backgroundColor: "#0f3a3322",
             }} >
                 <div className=' backdrop-blur-md rounded-3xl'>
-                    <div className='flex items-center justify-between p-10 border m-1 border-shades-6 rounded-3xl'>
+                    <div className='flex items-center justify-between lg:p-10 p-5 border m-1 border-shades-6 rounded-3xl'>
                         <div className='flex flex-col'>
                             <p className='text-2xl text-white'>Karfolio</p>
                             <p className='text-white text-xl text-font'>That's My Client Portfolio React Web App </p>
-                            <div className='flex mt-2 opacity-80'>
+                            <div className='flex mt-2 opacity-80 text-sm'>
                                 <div className='b bg-waka_total rounded text-font text-white text-[16px] pl-1 pr-1 shadow-sm'><p className='d drop-shadow-md'>total:</p></div>
                             <img src="https://wakatime.com/badge/user/0a39de3e-3235-4c6e-a595-07957c7f5086/project/853b9743-48fd-4c16-ace8-d44df5571454.svg" alt=""/>
 
@@ -37,7 +37,7 @@ export default function Project_3() {
                 </div>
             </div>
             </div>
-            <div className='w-2/5 h-full flex items-end justify-end'>
+            <div className='lg:w-2/5 h-full flex items-end justify-end'>
                 <div className='w-full h-auto bg-shades-7 border border-shades-8 rounded-3xl'>
                     <div className='w-full h-auto p-5 rounded-3xl border border-shades-5 text-stone-400 text-font text-xl'>
                         <p>Crafted with precision using React JS, Tailwind CSS, and the enchanting dance of Framer Motion, this web app is a symphony of innovation and design. <br /> <br />
@@ -46,11 +46,11 @@ export default function Project_3() {
 🎭 Animated Symphony: Infusing life into the interface with captivating animations brought to life by Framer Motion. <br />
                        </p>
                     </div>
-                    <div className='w-full h-auto rounded-3xl border border-shades-5 text-stone-400 flex'>
-                    <a className='w-1/2 rounded-3xl bg-shades-8 h-full flex items-center justify-center text-shades-1 p-5 border border-shades-7 text-xl' href="https://github.com/kopildas/karprotfolio">
+                    <div className='w-full h-auto rounded-3xl border border-shades-5 text-stone-400 flex items-center justify-center'>
+                    <a className='lg:w-1/2 rounded-3xl bg-shades-8 h-full flex items-center justify-center text-shades-1 p-5 border border-shades-7 text-xl' href="https://github.com/kopildas/karprotfolio">
                         <div >Github link</div></a>
                         <div></div>
-                        <a className='w-1/2 rounded-3xl bg-shades-8 h-full flex items-center justify-center text-shades-1 p-5 border border-shades-7 text-xl' href="https://karfolio.onrender.com/">
+                        <a className='lg:w-1/2 rounded-3xl bg-shades-8 h-full flex items-center justify-center text-shades-1 p-5 border border-shades-7 text-xl' href="https://karfolio.onrender.com/">
                         <div >Go to the website</div></a> 
                         <div></div>
                     </div>
