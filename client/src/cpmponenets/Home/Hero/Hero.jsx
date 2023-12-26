@@ -67,7 +67,7 @@ export default function Hero() {
         </div>
 
         <div className=" h-screen bg-shades-1 flex flex-col items-start p-1 md:p-3 lg:p-20 justify-center z-10  lg:mt-14 overflow-hidden">
-          <p className="text-[32px] md:text-[2.4rem] lg:text-[2.85rem] text-gray-300 font1 ">Web Developer</p>
+          <p className="text-[32px] md:text-[2.4rem] lg:text-[2.85rem] text-gray-200 mt-20 md:mt-0 bg-green-00 font1 ">Web Developer</p>
           <p className="mt-10 text-shades-8 text-[20px] md:text-[24px] lg:text-[27px] text-font bg-red-00">
             Hola This is Kopil..! <br /> I'm a{" "}
             <span className="">Front-end Developer</span> turning concepts into

@@ -15,7 +15,7 @@ export default function Project_1() {
     ];
 
   return (
-    <section className='h-auto flex  bg-shades-1 '>
+    <section className='h-auto flex  bg-shades-1 z-20 '>
       <div className='p-20 flex flex-col w-full'>
         <div className='flex flex-col items-end justify-end'>
         <p className='text-8xl font1 z-10 text-shades-8'>Projects</p>

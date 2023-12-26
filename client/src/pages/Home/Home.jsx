@@ -5,6 +5,8 @@ import Project_1 from '../../cpmponenets/Home/Project_1/Project_1';
 import Project_2 from '../../cpmponenets/Home/Project_2/Project_2';
 import Project_3 from '../../cpmponenets/Home/Project_3/Project_3';
 import Skills from '../../cpmponenets/Home/Skill/Skills';
+import TextReveal from '../../cpmponenets/Home/Skill/TextReveal';
+import TextReveal_2 from '../../cpmponenets/Home/Skill/TextReveal_2';
 
 
 export default function Home() {
@@ -27,6 +29,8 @@ export default function Home() {
       {/* <Parallax_1/> */}
       <Hero />
       <Skills/>
+      {/* <TextReveal/>
+      <TextReveal_2/> */}
       {/* <Skill /> */}
       <Project_1 />
       <Project_2 />
