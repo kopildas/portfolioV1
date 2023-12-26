@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
-import Sk_sets_lg_screen from "./sk_sets_lg_screen";
-import Sk_sets_mobile_screen from "./Sk_sets_mobile_screen";
+// import Sk_sets_lg_screen from "./sk_sets_lg_screen";
+// import Sk_sets_mobile_screen from "./Sk_sets_mobile_screen";
 import TextReveal from "./TextReveal";
 
 export default function Skills() {
