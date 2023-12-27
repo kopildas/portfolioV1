@@ -1,8 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { CgMenuRight } from "react-icons/cg";
+import Toggle_menu from './Toggle_menu';
 export default function Header() {
+
+const [toggle_menu, setToggle_menu] = useState(false)
+ const toggle = () => {
+  setToggle_menu(!toggle_menu)
+ }
+
   return (
         <nav className='tr z-10 bg-none fixed w-full flex items-center justify-between p-5 b-red-500 order-b'>
+          {toggle_menu &&<Toggle_menu toggle={toggle}/>}
         <div className='w-3/5 flex lg:items-center lg:justify-between bg-slate-00 pl-10 pr-5 -mr-5 '>
 
           {/* <p className='logo text-2xl'>Kopil Das</p> */}
@@ -19,7 +27,7 @@ export default function Header() {
         <div className='ml-5 pr-1 bg-green-00 w-2/5 flex items-center justify-end '>
 
           {/* <p className='border border-gray-300 text-white pl-3 pr-3 -mr-8 rounded-xl backdrop-blur-xl'>kopil das</p> */}
-          <p className='text-4xl text-shades-8'><CgMenuRight /></p>
+          <p className='text-4xl text-shades-8 cursor-pointer' onClick={toggle}><CgMenuRight /></p>
           
 
         </div>

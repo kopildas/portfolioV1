@@ -12,6 +12,8 @@ import Home from './pages/Home/Home'
 import About from './pages/About/About'
 import Header from './cpmponenets/Header/Header'
 import Lenis from '@studio-freight/lenis'
+import Projects from './pages/Projects/Projects'
+import Contact from './pages/Contact/Contact'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -31,6 +33,8 @@ function App() {
 
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
 
         </Routes>
       </Router>
