@@ -22,10 +22,31 @@ export default function Project_2() {
           <div className='lg:w-2/5 h-full flex items-start justify-start'>
               <div className='w-full h-auto bg-shades-7 border border-shades-8 rounded-3xl'>
                   <div className='w-full h-auto p-5 rounded-3xl border border-shades-5 text-stone-400 text-font text-xl'>
-                      <p>Fashioned with the delectable trio of React, Firebase, and Tailwind CSS, Omano orchestrates a seamless blend of design and functionality. <br /> <br />
-                      🗓️ Booking System: A dynamic table booking system allowing users to view table availability and make reservations. <br />
-🧑‍🍳 Admin Panel: Empowering admins to manage food items, showcase feature dishes, and curate user reviews.<br/>
-🌟 Feature Showcase: User-friendly features include dynamic sorting, customizable price ranges.</p>
+                      <p>Fashioned with the delectable trio of React, Firebase, and Tailwind CSS, Omano orchestrates a seamless blend of design and functionality.</p>
+                      <br />
+                <p>Features:</p>
+                <p className="t text-base 2xl:text-lg">
+                  <ul>
+                    <li>◼ Dynamic table booking system,View table availability</li>
+                    <li>◼ User authentication via JWT</li>
+                    <li>◼ Empowers admins to manage food items</li>
+                    <li>◼ Dynamic sorting for an enhanced user experience</li>
+                    <li>◼ User-friendly features, Dynamic sorting for enhanced experience</li>
+                
+                  </ul>
+                </p>
+
+                <br />
+                <p>Technology Stack:</p>
+                <div className="flex flex-wrap gap-2 text-base mt-2">
+                  <p className="b bg-shades-1 text-shades-8 p-2 px-4 rounded-xl">React</p>
+                  <p className="b bg-shades-1 text-shades-8 p-2 px-4 rounded-xl">Tailwind CSS</p>
+                  <p className="b bg-shades-1 text-shades-8 p-2 px-4 rounded-xl">MongoDB</p>
+                  <p className="b bg-shades-1 text-shades-8 p-2 px-4 rounded-xl">Node.js</p>
+                  <p className="b bg-shades-1 text-shades-8 p-2 px-4 rounded-xl">Express.js</p>
+                </div>
+
+
                   </div>
                   <div className='w-full h-auto rounded-3xl border border-shades-5 text-stone-400 flex items-center justify-center'>
                   <a className='lg:w-1/2 rounded-3xl bg-shades-8 h-full flex items-center justify-center text-shades-1 p-5 border border-shades-7 text-xl' href="https://github.com/kopildas/omano-restaurant">
