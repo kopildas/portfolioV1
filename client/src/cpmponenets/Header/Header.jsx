@@ -22,10 +22,10 @@ const navigate = useNavigate();
           }} src="https://i.ibb.co/zsXLPWF/kopil-das-high-resolution-logo-transparent.png" alt="kopil-das-high-resolution-logo-transparent" border="0" className='w-32 -ml-5 lg:ml-0 cursor-pointer'/>
           </div> 
           <p className='hidden lg:flex gap-5 border border-shades-3 pl-6 pr-5 -mr-8 rounded-3xl backdrop-blur-[40px] p-2 text-shades-8 text-lg text-font'>
-            <p onClick={() => {
+            <p className='cursor-pointer' onClick={() => {
             navigate("/about");
           }}>info</p>
-            <p onClick={() => {
+            <p className='cursor-pointer' onClick={() => {
             navigate("/contact");
           }}>contact</p>
           </p>
