@@ -1,7 +1,9 @@
 import React from 'react'
 import Pro_Box_1 from '../Pro_Box_1/Pro_Box_1'
+import { useNavigate } from 'react-router-dom';
 
 export default function Project_3() {
+  const navigate = useNavigate();
     const one=3;
     const data = [
         { id: 1, image: "https://i.ibb.co/RbpwHgB/mobile-19.png" },
@@ -11,7 +13,7 @@ export default function Project_3() {
         { id: 5, image: "https://i.ibb.co/vqTtxDs/mobile-23.png" },
     ];
   return (
-    <section className='h-auto flex  bg-shades-1 '>
+    <section className='h-auto flex flex-col bg-shades-1 '>
       <div className='lg:p-20 p-5 flex flex-col w-full'>
        
 
@@ -76,6 +78,11 @@ export default function Project_3() {
         </div>
    
         
+        </div>
+        <div className='w-full bg-red-00 flex items-center justify-center -mt-10 mb-20'>
+          <p className='px-7 py-2 bg-shades-4 text-xl font-semibold text-shades-1 rounded-2xl hover:scale-110 duration-200 transition ease-in-out cursor-pointer' onClick={() => {
+            navigate("/projects");
+          }}>VIew More</p>
         </div>
     </section>
   )
