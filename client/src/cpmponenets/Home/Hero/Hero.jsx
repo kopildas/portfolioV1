@@ -69,9 +69,8 @@ export default function Hero() {
         <div className=" h-screen bg-shades-1 flex flex-col items-start p-1 md:p-3 lg:p-20 justify-center z-10  lg:mt-14 overflow-hidden">
           <p className="text-[32px] md:text-[2.4rem] lg:text-[2.85rem] text-gray-200 mt-20 md:mt-0 bg-green-00 font1 ">Web Developer</p>
           <p className="mt-10 text-shades-8 text-[20px] md:text-[24px] lg:text-[27px] text-font bg-red-00">
-            Hola This is Kopil..! <br /> I'm a{" "}
-            <span className="">Front-end Developer</span> turning concepts into
-            digital art. Learning MERN Development to make your websites not
+            Hola.. This is <b>Kopil..!</b> <br /> I'm a{" "}
+            <span className="font-bold">Front-end Developer</span>. Learning <b>MERN</b> Development to make websites not
             just visually enchanting, but fully functional. <br /> Let's
             co-create digital wonders!
           </p>
