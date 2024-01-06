@@ -124,7 +124,7 @@ export const data = [
             "t3": "Websoket",
             
         },"github" : "https://github.com/kopildas/2d-ping-pong-game-java",
-        "live" : ""
+        "live" : null
     },
     {
         "category" : "ML", 
@@ -143,8 +143,8 @@ export const data = [
             "t2": "SVM",
             "t3": "Transfer Learning ",
             "t4": "Naive Bais",
-        },"github" : "https://github.com/TeamMalloc/Multi-Disease-Prediction-System",
-        "live" : ""
+        },"github" : "https://github.com/TeamMalloc/final-year-ML-projcet",
+        "live" : null
     },
     
 ]
