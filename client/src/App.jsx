@@ -25,7 +25,7 @@ function App() {
   return (
     <>
     
-       <div className="w-screen h-auto flex flex-col  bg-white">
+       <div className="w-screen h-auto flex flex-col  bg-shades-1">
       <Router>
         {/* <Cursor scaling={scaling}/> */}
         <Header />
