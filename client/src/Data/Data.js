@@ -1,5 +1,28 @@
 export const data = [
     {
+        "category" : "ML", 
+        "image": "https://i.ibb.co/rbcr3Dy/Screenshot-2024-01-27-221813.png",
+        "name": "Multi Disease Prediction System",
+        "description": "asfak sjhfj kas hdfas hdfkh ahdfad asdfh",
+        "features":
+        {
+            "f1": "fsdfsd sdgs  sgsdg",
+            "f2": "oo pofg ddfsd sdgs  sgsdg",
+            "f3": "fsdfsd sdgs  sgsdg",
+            "f4": "oo pofg ddfsd sdgs  sgsdg",
+        },
+        "tech": {
+            "t1": "Python",
+            "t2": "OpenCV",
+            "t3": "Streamlit",
+            "t4": "CNN",
+            "t5": "SVM",
+            "t6": "Transfer Learning ",
+            "t7": "Naive Bais",
+        },"github" : "https://github.com/TeamMalloc/final-year-ML-projcet",
+        "live" : "https://huggingface.co/spaces/kopildas/medvision-ai"
+    },
+    {
         "category" : "MERN", 
         "image": "https://i.ibb.co/yRzNddw/mobile-27.png",
         "name": "Whoody + Admin panel",
@@ -126,25 +149,6 @@ export const data = [
         },"github" : "https://github.com/kopildas/2d-ping-pong-game-java",
         "live" : null
     },
-    {
-        "category" : "ML", 
-        "image": "https://i.ibb.co/tmTyTWL/HiRes-17.jpg",
-        "name": "Multi Disease Prediction System",
-        "description": "asfak sjhfj kas hdfas hdfkh ahdfad asdfh",
-        "features":
-        {
-            "f1": "fsdfsd sdgs  sgsdg",
-            "f2": "oo pofg ddfsd sdgs  sgsdg",
-            "f3": "fsdfsd sdgs  sgsdg",
-            "f4": "oo pofg ddfsd sdgs  sgsdg",
-        },
-        "tech": {
-            "t1": "CNN",
-            "t2": "SVM",
-            "t3": "Transfer Learning ",
-            "t4": "Naive Bais",
-        },"github" : "https://github.com/TeamMalloc/final-year-ML-projcet",
-        "live" : null
-    },
+    
     
 ]
