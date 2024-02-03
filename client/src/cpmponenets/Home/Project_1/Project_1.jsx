@@ -19,34 +19,7 @@ export default function Project_1() {
 
         <div className="lg:px-10 bg-red-00 flex flex-col lg:flex-row items-center justify-center mt-10 mb-10 font2 rounded-3xl gap-5 border border-shades-3 p-[5px]">
           
-          <div className="lg:w-3/5 h-auto hover:bg-gradient-1 ease-in-out duration-500 rounded-3xl">
-            <div
-              className=" h-auto rounded-3xl flex flex-col border border-shades-4 backdrop-blur-xl back "
-              style={{
-                backgroundColor: "#0f3a3322",
-              }}
-            >
-              <div className=" backdrop-blur-md rounded-3xl">
-                <div className="flex items-center justify-between lg:p-10 p-5 border m-1 border-shades-6 rounded-3xl">
-                  <div className="flex flex-col">
-                    <p className="text-2xl text-white">Woodhy</p>
-                    <p className="text-white text-xl text-font">
-                      A MERN stack project
-                    </p>
-
-                    <div className="flex mt-2 text-sm opacity-80">
-                      <div className="b bg-waka_total rounded text-font text-white lg:text-[16px] pl-1 pr-1 shadow-sm">
-                        <p className="d drop-shadow-md px-2 py-1 text-sm">October 2023 – December 2023</p>
-                      </div>
-                      
-                    </div>
-                  </div>
-                  {/* <div>arrow</div> */}
-                </div>
-                <Pro_Box_1 project_number={one} data={data} />
-              </div>
-            </div>
-          </div>
+          
 
           <div className="lg:w-2/5 h-full flex items-end justify-end">
             <div className="w-full h-auto bg-shades-7 border border-shades-8 rounded-3xl">
@@ -96,7 +69,35 @@ export default function Project_1() {
             </div>
           </div>
 
-          
+<div className="lg:w-3/5 h-auto hover:bg-gradient-1 ease-in-out duration-500 rounded-3xl">
+            <div
+              className=" h-auto rounded-3xl flex flex-col border border-shades-4 backdrop-blur-xl back "
+              style={{
+                backgroundColor: "#0f3a3322",
+              }}
+            >
+              <div className=" backdrop-blur-md rounded-3xl">
+                <div className="flex items-center justify-between lg:p-10 p-5 border m-1 border-shades-6 rounded-3xl">
+                  <div className="flex flex-col">
+                    <p className="text-2xl text-white">Woodhy</p>
+                    <p className="text-white text-xl text-font">
+                      A MERN stack project
+                    </p>
+
+                    <div className="flex mt-2 text-sm opacity-80">
+                      <div className="b bg-waka_total rounded text-font text-white lg:text-[16px] pl-1 pr-1 shadow-sm">
+                        <p className="d drop-shadow-md px-2 py-1 text-sm">October 2023 – December 2023</p>
+                      </div>
+                      
+                    </div>
+                  </div>
+                  {/* <div>arrow</div> */}
+                </div>
+                <Pro_Box_1 project_number={one} data={data} />
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
