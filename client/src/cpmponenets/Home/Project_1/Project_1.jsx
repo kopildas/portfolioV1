@@ -18,6 +18,7 @@ export default function Project_1() {
       <div className="lg:p-20 p-5 flex flex-col w-full">
 
         <div className="lg:px-10 bg-red-00 flex flex-col lg:flex-row items-center justify-center mt-10 mb-10 font2 rounded-3xl gap-5 border border-shades-3 p-[5px]">
+          
           <div className="lg:w-3/5 h-auto hover:bg-gradient-1 ease-in-out duration-500 rounded-3xl">
             <div
               className=" h-auto rounded-3xl flex flex-col border border-shades-4 backdrop-blur-xl back "
@@ -35,12 +36,9 @@ export default function Project_1() {
 
                     <div className="flex mt-2 text-sm opacity-80">
                       <div className="b bg-waka_total rounded text-font text-white lg:text-[16px] pl-1 pr-1 shadow-sm">
-                        <p className="d drop-shadow-md">total:</p>
+                        <p className="d drop-shadow-md px-2 py-1 text-sm">October 2023 – December 2023</p>
                       </div>
-                      <img
-                        src="https://wakatime.com/badge/user/0a39de3e-3235-4c6e-a595-07957c7f5086/project/018b6382-2f73-41ed-b0a4-bc24ff11cafc.svg"
-                        alt=""
-                      />
+                      
                     </div>
                   </div>
                   {/* <div>arrow</div> */}
@@ -49,6 +47,7 @@ export default function Project_1() {
               </div>
             </div>
           </div>
+
           <div className="lg:w-2/5 h-full flex items-end justify-end">
             <div className="w-full h-auto bg-shades-7 border border-shades-8 rounded-3xl">
               <div className="w-full h-auto p-5 rounded-3xl border border-shades-5 text-stone-400 text-font text-xl">
@@ -96,6 +95,8 @@ export default function Project_1() {
               </div>
             </div>
           </div>
+
+          
         </div>
       </div>
     </section>

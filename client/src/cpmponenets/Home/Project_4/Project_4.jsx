@@ -63,12 +63,9 @@ export default function Project_4() {
 
                     <div className="flex mt-2 text-sm opacity-80">
                       <div className="b bg-waka_total rounded text-font text-white lg:text-[16px] pl-1 pr-1 shadow-sm">
-                        <p className="d drop-shadow-md">total:</p>
+                        <p className="d drop-shadow-md px-2 py-1 text-sm">January 2023 - January 2024</p>
                       </div>
-                      <img
-                        src="https://wakatime.com/badge/user/0a39de3e-3235-4c6e-a595-07957c7f5086/project/018b6382-2f73-41ed-b0a4-bc24ff11cafc.svg"
-                        alt=""
-                      />
+                      
                     </div>
                   </div>
                   {/* <div>arrow</div> */}

@@ -28,8 +28,8 @@ export default function Project_3() {
                             <p className='text-2xl text-white'>Karfolio</p>
                             <p className='text-white text-xl text-font'>React Web App</p>
                             <div className='flex mt-2 opacity-80 text-sm'>
-                                <div className='b bg-waka_total rounded text-font text-white text-[16px] pl-1 pr-1 shadow-sm'><p className='d drop-shadow-md'>total:</p></div>
-                            <img src="https://wakatime.com/badge/user/0a39de3e-3235-4c6e-a595-07957c7f5086/project/853b9743-48fd-4c16-ace8-d44df5571454.svg" alt=""/>
+                                <div className='b bg-waka_total rounded text-font text-white text-[16px] pl-1 pr-1 shadow-sm'><p className='d drop-shadow-md px-2 py-1 text-sm'>September 2023 - October 2023</p></div>
+                            
 
                             </div>
                         </div>
