@@ -136,7 +136,7 @@ export default function Project_4() {
                 <div></div>
                 <a
                   className="lg:w-1/2 rounded-3xl bg-shades-8 h-full flex items-center justify-center text-shades-1 p-5 border border-shades-7 text-xl"
-                  href="https://huggingface.co/spaces/kopildas/medvision-ai"
+                  href="https://huggingface.co/spaces/kopil/medvision-ai"
                 >
                   <div>Go to the website</div>
                 </a>
