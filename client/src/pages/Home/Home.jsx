@@ -17,7 +17,7 @@ export default function Home() {
   const handleScroll = () => setOffsetY(window.scrollY);
 
   useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll, { passive: true });
 
     return () => {
       window.removeEventListener('scroll', handleScroll);
@@ -29,7 +29,7 @@ export default function Home() {
   return (
     <div className='overflow-hidden z-0'>
       {/* <Parallax_1/> */}
-      <Hero />
+      <Hero offsetY={offsetY}/>
       <Skills/>
       {/* <TextReveal/>
       <TextReveal_2/> */}

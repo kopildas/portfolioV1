@@ -6,22 +6,7 @@ import "./Hero.css";
 import Lenis from '@studio-freight/lenis'
 
 
-export default function Hero() {
-  const [offsetY, setOffsetY] = useState(0);
-
-  const handleScroll = () => setOffsetY(window.scrollY);
-
-  useEffect(() => {
-    window.addEventListener('scroll', handleScroll, { passive: true });
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
-
-
-
-  
+export default function Hero({offsetY}) {
 
   // useEffect(() => {
   //   const lenis = new Lenis()
