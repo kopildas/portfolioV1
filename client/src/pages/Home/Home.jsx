@@ -12,7 +12,7 @@ import { useNavigate } from 'react-router-dom';
 
 export default function Home() {
   const navigate = useNavigate();
-  const [offsetY, setOffsetY] = useState(0);
+  const [offsetY, setOffsetY] = useState(window.scrollY);
 
   const handleScroll = () => setOffsetY(window.scrollY);
 
