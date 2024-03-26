@@ -3,7 +3,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import { FaLinkedinIn, FaGithub, FaTwitter, FaInstagram } from "react-icons/fa";
 import Icon_Magnetic from "./Icon_Magnetic";
 import "./Hero.css";
-import Lenis from '@studio-freight/lenis'
+
 
 
 export default function Hero({offsetY}) {
