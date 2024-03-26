@@ -29,7 +29,7 @@ export default function Home() {
   return (
     <div className='overflow-hidden z-0'>
       {/* <Parallax_1/> */}
-      {/* <Hero offsetY={offsetY}/> */}
+      <Hero offsetY={offsetY}/>
       <Skills/>
       {/* <TextReveal/>
       <TextReveal_2/> */}

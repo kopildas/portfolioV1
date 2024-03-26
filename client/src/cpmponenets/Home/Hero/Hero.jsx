@@ -76,7 +76,7 @@ export default function Hero({offsetY}) {
           alt="statue-stoicism-philosophy-working-in-laptop-dark-background-cinematic-381425111-removebg"
           border="0"
           className=" h-auto overflow-x-hidden md:h-auto bgred lg:h-screen absolute  z-30"
-          style={{transform: `translate3d(${Math.min(offsetY * 0.8, 600)}px, 0px, 0px) scale(1)` }} // Adjust the scale factor and maxWidth as needed
+          style={{transform: `translateX(${offsetY *0.5}px)` }} // Adjust the scale factor and maxWidth as needed
         />
       </div>
       {/* <div className="w-44 h-screen bg-red-300 absolute"></div> */}
