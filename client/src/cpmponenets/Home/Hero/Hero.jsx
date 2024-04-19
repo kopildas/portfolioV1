@@ -60,7 +60,7 @@ export default function Hero({offsetY}) {
           <div className="relative group">
             <div className="absolute inset-0 bg-shades-4 rounded-2xl mt-6 opacity-75 group-hover:opacity-100 blur-sm group-hover:blur transition ease-in-out duration-700 group-hover:duration-200 animate-tilt"></div>
             <button className="w-auto h-auto rounded-2xl text-shades-8 bg-shades-1  px-8 py-2 font2 mt-6 relative">
-              <a href="https://drive.google.com/file/d/1ncTzSOcvDcoUw9C0lvbB_XHSsPKIg6Cp/view?usp=sharing">Resume</a> <span className="text-shades-4">-</span>
+              <a href="https://drive.google.com/file/d/1Yv9qnhludEJJGl-Vb84emGhURMsEKaIA/view?usp=sharing">Resume</a> <span className="text-shades-4">-</span>
             </button>
           </div>
         </div>
