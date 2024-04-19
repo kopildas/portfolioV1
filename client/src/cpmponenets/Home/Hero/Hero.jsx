@@ -54,8 +54,8 @@ export default function Hero({offsetY}) {
         <div className=" h-screen bg-shades-1 flex flex-col items-start p-1 md:p-3 lg:p-20 justify-center z-10  lg:mt-14 overflow-hidden">
           <p className="text-[32px] md:text-[2.4rem] lg:text-[2.85rem] text-gray-200 mt-20 md:mt-0 bg-green-00 font1 ">Web Developer</p>
           <p className="mt-10 text-shades-8 text-[20px] md:text-[24px] lg:text-[27px] text-font bg-red-00">
-            Hello.. This is <b>Kopil..!</b> <br /> I'm a{" "}
-            <span className="font-bold">a passionate Front-End Developer</span> with a knack for crafting user-friendly interfaces and building efficient web applications. I leverage my expertise in Next.js, React.js, and various other technologies to bring innovative ideas to life.
+            Hello.. This is <b>Kopil..!</b> <br /> I'm a passionate{" "}
+            <span className="font-bold">Front-End Developer</span> with a knack for crafting user-friendly interfaces and building efficient web applications. I leverage my expertise in Next.js, React.js, and various other technologies to bring innovative ideas to life.
           </p>
           <div className="relative group">
             <div className="absolute inset-0 bg-shades-4 rounded-2xl mt-6 opacity-75 group-hover:opacity-100 blur-sm group-hover:blur transition ease-in-out duration-700 group-hover:duration-200 animate-tilt"></div>
