@@ -33,7 +33,7 @@ export default function Hero({ offsetY }) {
     gsap.from(".title_img1", { x: 1000, duration: 2.5 }); // <-- automatically reverted
     gsap.from(".home_title_1", { y: 100, opacity: 0, delay: 1.58 }); // <-- automatically reverted
     gsap.from(".home_title_2", { y: 100, opacity: 0, delay: 1.79 }); // <-- automatically reverted
-    gsap.from(".home_title_3", { y: 100, opacity: 0, delay: 2.19 }); // <-- automatically reverted
+    gsap.from(".home_title_3", { y: 100, opacity: 0, delay: 2 }); // <-- automatically reverted
   }); //
 
   return (
@@ -78,7 +78,7 @@ export default function Hero({ offsetY }) {
           <p className="text-[32px] md:text-[2.4rem] lg:text-[2.85rem] text-gray-200 mt-20 md:mt-0 bg-green-00 font1 home_title_1">
             Web Developer
           </p>
-          <p className="mt-10 text-shades-8 text-[20px] md:text-[24px] lg:text-[27px] text-font bg-red-00 home_title_2">
+          <p className="mt-10 text-shades-8 text-[15px] md:text-[24px] lg:text-[27px] text-font bg-red-00 home_title_2">
             Hello.. I'm <b>Kopil..!</b> <br />A passionate{" "}
             <span className="font-bold">Front-End Developer</span> with a knack
             for crafting user-friendly interfaces and building efficient web
@@ -98,14 +98,17 @@ export default function Hero({ offsetY }) {
       </div>
 
       <div className="parallax__jax w-[25%] md:w-2/5 h-screen bg-shades-2 flex items-end justify-end overflow-x-hidden overflow-hidden z-10 box2 absolute right-0"></div>
-      {/* <div className="parallax__jax w-full h-screen bg-shades- flex items-end justify-end overflow-x-hidden overflow-hidden z-0 title_img1 absolute right-0"> */}
-        <img
+      
+      <div className="h-screen overflow-x-hidden md:h-screen bgred lg:h-screen  z-30 title_img1 flex bg-red-00 items-end justify-end absolute right-0">
+      <img
           src="https://i.ibb.co/kBDgBvb/statue-stoicism-philosophy-working-in-laptop-dark-background-cinematic-381425111-removebg.png"
           alt="statue-stoicism-philosophy-working-in-laptop-dark-background-cinematic-381425111-removebg"
           border="0"
-          className=" h-auto overflow-x-hidden md:h-auto bgred lg:h-screen absolute  z-30 title_img1 absolute right-0"
+          className=" h-auto overflow-x-hidden md:h-screen bgred lg:h-screen  z-30 title_img1 bg-red-00 right-0 top-"
           style={{ transform: `translateX(${offsetY * 0.5}px)` }} // Adjust the scale factor and maxWidth as needed
         />
+             </div>
+        
       {/* </div> */}
       {/* <div className="w-44 h-screen bg-red-300 absolute"></div> */}
     </section>

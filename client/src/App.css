@@ -59,3 +59,79 @@ html,body{
     padding-left: 10px;
   }
 }
+
+
+
+
+/* for skill */
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background-color: var(--shades-7); /* Assuming you have CSS variables defined */
+  font-family: 'Font4'; /* Replace with your actual font class */
+}
+
+.image-container {
+  position: absolute;
+  bottom: 0;
+  left: 5%;
+  z-index: 20;
+}
+
+.self-made-man {
+  height: 55%;
+  max-height: 80%;
+}
+
+.skills-text-container {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.skills-text {
+  font-size: 7rem;
+  white-space: nowrap;
+  transform: rotate(-90deg);
+}
+
+.skills-title {
+  font-size: 6rem;
+  font-family: 'Font1'; /* Replace with your actual font class */
+  color: var(--shades-8); /* Assuming you have CSS variables defined */
+}
+
+.text-reveal-container {
+  width: 100%;
+  padding: 0 5rem;
+  margin-top: 2rem;
+}
+
+@media (min-width: 1024px) {
+  .skills-container {
+    flex-direction: row;
+  }
+
+  .image-container {
+    bottom: auto;
+    top: 0;
+    left: 10%;
+  }
+
+  .skills-text-container {
+    top: auto;
+    bottom: 0;
+    left: 14rem;
+  }
+
+  .text-reveal-container {
+    margin-top: 0;
+  }
+}

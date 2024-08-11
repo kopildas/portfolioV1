@@ -11,7 +11,7 @@ const navigate = useNavigate();
  }
 
   return (
-        <nav className='tr z-10 bg-none fixed w-full flex items-center justify-between p-5 b-red-500 order-b'>
+        <nav className='tr z-40 bg-none fixed w-full flex items-center justify-between p-5 b-red-500 order-b'>
           {toggle_menu &&<Toggle_menu toggle={toggle}/>}
         <div className='w-3/5 flex lg:items-center lg:justify-between bg-slate-00 pl-10 pr-5 -mr-5 '>
 

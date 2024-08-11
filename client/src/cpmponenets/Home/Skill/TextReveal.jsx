@@ -87,7 +87,7 @@ function TextReveal() {
                     ))}
                     <br />
                     {text.split("").map((letter, index) => (
-                        <span className="reveal-text text-md lg:text-xl font-semibold" key={index} ref={setlettersRef}>
+                        <span className="reveal-text text-[15px] lg:text-xl font-semibold" key={index} ref={setlettersRef}>
                             {letter}
                         </span>
                     ))}
